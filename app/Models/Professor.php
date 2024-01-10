@@ -18,7 +18,6 @@ class Professor extends Model
         'curriculo',
         'docencia',
         'contraCheque',
-        'eixoTematico',
         'tema',
         'miniAula',
     ];

@@ -24,7 +24,6 @@ return new class extends Migration
             $table->string('curriculo');
             $table->string('docencia');
             $table->string('contraCheque');
-            $table->string('eixoTematico');
             $table->string('tema');
             $table->string('miniAula');
 
