@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/cadastro-professor', [ProfessorController::class, 'create'])->name('professor.create');
+Route::get('/professor/cadastro', [ProfessorController::class, 'create'])->name('professor.create');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
